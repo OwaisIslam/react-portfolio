@@ -5,7 +5,7 @@ function Header(props) {
 	const { currentTab, setCurrentTab } = props;
 
 	return (
-		<header>
+		<header className="header">
 			<h2>Owais' React Portfolio</h2>
 			<Navigation
 				currentTab={currentTab}

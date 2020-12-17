@@ -63,6 +63,28 @@ function Project() {
 	return (
 		<section>
 			<h2>Project Section</h2>
+			<ul className="flex-row">
+				<li>
+					Flash Beats
+					<div>
+						<a href="https://teamflash1.github.io/music-app/" target="_blank">
+							<img
+								src={require("../../assets/images/flash-beats-image.gif")}
+								alt="flash-beats"
+							/>
+						</a>
+					</div>
+				</li>
+				<li>Project 2</li>
+			</ul>
+			<ul className="flex-row">
+				<li>Project 3</li>
+				<li>Project 4</li>
+			</ul>
+			<ul className="flex-row">
+				<li>Project 5</li>
+				<li>Project 6</li>
+			</ul>
 		</section>
 	);
 }
