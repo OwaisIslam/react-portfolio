@@ -1,5 +1,5 @@
 import "./App.css";
-import React from "react";
+import React, { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
@@ -8,14 +8,37 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 
 function App() {
+	const [aboutSelected, setAboutSelected] = useState(true);
+	const [portfolioSelected, setPortfolioSelected] = useState(false);
+	const [contactSelected, setContactSelected] = useState(false);
+	const [resumeSelected, setResumeSelected] = useState(false);
+
+	const renderTab = () => {
+		if (aboutSelected) {
+			return <About></About>;
+		} else if (portfolioSelected) {
+			return <Portfolio></Portfolio>;
+		} else if (contactSelected) {
+			return <Contact></Contact>;
+		} else {
+			return <Resume></Resume>;
+		}
+	};
+
 	return (
 		<div>
-			<Header></Header>
+			<Header
+				aboutSelected={aboutSelected}
+				setAboutSelected={setAboutSelected}
+				portfolioSelected={portfolioSelected}
+				setPortfolioSelected={setPortfolioSelected}
+				contactSelected={contactSelected}
+				setContactSelected={setContactSelected}
+				resumeSelected={resumeSelected}
+				setResumeSelected={setResumeSelected}
+			></Header>
 			<main>
-				<About></About>
-				<Portfolio></Portfolio>
-				<Contact></Contact>
-				<Resume></Resume>
+				{renderTab()}
 			</main>
 			<Footer></Footer>
 		</div>
