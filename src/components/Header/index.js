@@ -5,12 +5,16 @@ function Header(props) {
 	const { currentTab, setCurrentTab } = props;
 
 	return (
-		<header className="header">
-			<h2>Owais' React Portfolio</h2>
-			<Navigation
-				currentTab={currentTab}
-				setCurrentTab={setCurrentTab}
-			></Navigation>
+		<header>
+			<div>
+				<h2>Owais' React Portfolio</h2>
+			</div>
+			<div className="tabs">
+				<Navigation
+					currentTab={currentTab}
+					setCurrentTab={setCurrentTab}
+				></Navigation>
+			</div>
 		</header>
 	);
 }

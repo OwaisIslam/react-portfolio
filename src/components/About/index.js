@@ -3,8 +3,8 @@ import React from "react";
 function About() {
 	return (
 		<section>
-			<div className="center page-header" id="about">
-				About Me
+			<div className="center" id="about">
+				<h1 className="page-header">About Me</h1>
 			</div>
 			<div className="center">
 				<img
@@ -20,7 +20,7 @@ function About() {
 					Houston, TX and currently reside in Austin with my wife and our cat
 					Shuri. During the day, I work for a popular e-commerce platform
 					company. In my spare time, I love to play video games and watch comedy
-					shows. Currently we are catching up on <em>Brooklyn Nine Nine</em> and
+					shows. Currently we are catching up on <em>Brooklyn Nine Nine</em> and{" "}
 					<em>Veep</em>. I'm a huge Trekkie and I have seen all the episodes of
 					every single show (yes, even the animated cartoon!).
 				</p>

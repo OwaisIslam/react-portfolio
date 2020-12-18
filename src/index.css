@@ -110,7 +110,10 @@ a:hover {
 }
 
 header {
-	background: var(--dark);
+	background: var(--secondary);
+	display: flex;
+	justify-content: center;
+	padding: 1rem;
 }
 
 header a {
@@ -308,16 +311,16 @@ nav {
 	color: var(--primary);
 }
 
-.header {
-	display: flex;
-	background-color: #ef626c;
-	padding: 1rem;
-}
-
 .footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+}
+
+.tabs {
+	display: flex;
+	justify-content: flex-end;
+	padding-left: 2em;
 }
 
 .photo {
