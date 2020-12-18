@@ -14,13 +14,13 @@ function App() {
 	const renderTab = () => {
 		switch (currentTab) {
 			case "about":
-				return <About></About>;
+				return <About />;
 			case "portfolio":
-				return <Portfolio></Portfolio>;
+				return <Portfolio />;
 			case "contact":
-				return <Contact></Contact>;
+				return <Contact />;
 			case "resume":
-				return <Resume></Resume>;
+				return <Resume />;
 			default:
 				return null;
 		}
