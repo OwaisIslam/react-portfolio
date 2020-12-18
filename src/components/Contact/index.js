@@ -35,42 +35,49 @@ function Contact() {
 
 	return (
 		<section>
-			<h2>Contact Me</h2>
-			<form id="contact-form">
-				<div>
-					<label htmlFor="name">Name:</label>
-					<input
-						type="text"
-						defaultValue={name}
-						onBlur={handleChange}
-						name="name"
-					/>
-				</div>
-				<div>
-					<label htmlFor="email">Email address:</label>
-					<input
-						type="email"
-						defaultValue={email}
-						name="email"
-						onBlur={handleChange}
-					/>
-				</div>
-				<div>
-					<label htmlFor="message">Message:</label>
-					<textarea
-						name="message"
-						defaultValue={message}
-						onBlur={handleChange}
-						rows="5"
-					/>
-				</div>
-				{errorMessage && (
+			<div className="center">
+				<h2 className="page-header">Contact Me</h2>
+			</div>
+			<div>
+				<form id="contact-form">
 					<div>
-						<p className="error-text">{errorMessage}</p>
+						<label htmlFor="name">Name:</label>
+						<br></br>
+						<input
+							type="text"
+							defaultValue={name}
+							onBlur={handleChange}
+							name="name"
+						/>
 					</div>
-				)}
-				<button type="submit">Submit</button>
-			</form>
+					<div>
+						<label htmlFor="email">Email address:</label>
+						<br></br>
+						<input
+							type="email"
+							defaultValue={email}
+							name="email"
+							onBlur={handleChange}
+						/>
+					</div>
+					<div>
+						<label htmlFor="message">Message:</label>
+						<br></br>
+						<textarea
+							name="message"
+							defaultValue={message}
+							onBlur={handleChange}
+							rows="5"
+						/>
+					</div>
+					{errorMessage && (
+						<div>
+							<p className="error-text">{errorMessage}</p>
+						</div>
+					)}
+					<button type="submit">Submit</button>
+				</form>
+			</div>
 		</section>
 	);
 }

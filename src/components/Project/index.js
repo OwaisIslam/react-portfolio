@@ -64,12 +64,13 @@ function Project() {
 		<section>
 			<ul className="flex-row">
 				<li>
-					Flash Beats
+					<h2>Flash Beats</h2>
 					<div>
 						<a href="https://teamflash1.github.io/music-app/" target="_blank">
 							<img
 								src={require("../../assets/images/flash-beats-image.gif")}
 								alt="flash-beats"
+								className="image"
 							/>
 						</a>
 					</div>

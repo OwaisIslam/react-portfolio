@@ -121,15 +121,16 @@ header a {
 }
 
 button {
-	font-size: 1rem;
-	text-decoration: none;
-	padding: 0.25rem 1rem;
+	background: var(--secondary);
+	border: 0;
 	border-radius: .5rem;
-	border: none;
-	outline: none;
+	color: #fff;
 	cursor: pointer;
-	margin: 0 1px;
-	background-color: var(--secondary);
+	font-size: 16px;
+	font-weight: 600;
+	padding: 10px 15px;
+	font-size: 1rem;
+
 }
 
 button:hover {
@@ -160,6 +161,7 @@ input {
 	outline: none;
 	border-radius: 3px;
 	transition: box-shadow 0.2s;
+	width: 600px;
 }
 
 input:focus {
@@ -289,24 +291,6 @@ textarea {
 	margin-bottom: 25px;
 }
 
-button {
-	background: var(--primary);
-	border: 0;
-	border-radius: 5px;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 600;
-	margin-bottom: 30px;
-	padding: 10px 15px;
-}
-
-nav {
-	display: flex;
-	/* justify-content: space-evenly; */
-	/* padding-left: 1rem; */
-}
-
 .navActive {
 	color: var(--primary);
 }
@@ -331,6 +315,14 @@ nav {
 	padding: 50px;
 }
 
+.image {
+	width: auto;
+	height: auto;
+	max-width: 500px;
+	max-height: 500px;
+	padding: 50px;
+}
+
 .center {
 	display: flex;
 	justify-content: center;
@@ -342,4 +334,5 @@ nav {
 	font-weight: 500;
 	margin: 5px 0;
 	line-height: 1.25;
+	padding-bottom: 2rem;
 }
