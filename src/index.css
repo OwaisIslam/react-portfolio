@@ -298,6 +298,12 @@ button {
 	padding: 10px 15px;
 }
 
+nav {
+	display: flex;
+	/* justify-content: space-evenly; */
+	/* padding-left: 1rem; */
+}
+
 .navActive {
 	color: var(--primary);
 }
@@ -305,10 +311,32 @@ button {
 .header {
 	display: flex;
 	background-color: #ef626c;
+	padding: 1rem;
 }
 
 .footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+}
+
+.photo {
+	width: auto;
+	height: auto;
+	max-width: 640px;
+	max-height: 480px;
+	padding: 50px;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+.page-header {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.5em;
+	font-weight: 500;
+	margin: 5px 0;
+	line-height: 1.25;
 }
