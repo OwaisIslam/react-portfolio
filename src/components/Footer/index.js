@@ -4,7 +4,7 @@ function Footer() {
 	return (
 		<footer className="footer">
 			<div className="footer">
-				<a href="https://teamflash1.github.io/music-app/" target="_blank">
+				<a href="https://github.com/OwaisIslam" target="_blank">
 					Github
 				</a>
 			</div>

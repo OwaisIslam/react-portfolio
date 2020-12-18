@@ -62,7 +62,6 @@ function Project() {
 
 	return (
 		<section>
-			<h2>Project Section</h2>
 			<ul className="flex-row">
 				<li>
 					Flash Beats

@@ -299,7 +299,7 @@ button {
 }
 
 .navActive {
-	color: var(--secondary);
+	color: var(--primary);
 }
 
 .header {
