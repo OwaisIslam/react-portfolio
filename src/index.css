@@ -169,7 +169,11 @@ input:focus {
 	box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
-li {
+ol li {
+	list-style: inside;
+}
+
+ul li {
 	list-style: none;
 }
 
@@ -227,6 +231,7 @@ textarea {
 	margin-top: var(--spacing-two);
 	margin-bottom: var(--spacing-two);
 }
+
 
 .my-5 {
 	margin-top: var(--spacing-five);
@@ -335,4 +340,8 @@ textarea {
 	margin: 5px 0;
 	line-height: 1.25;
 	padding-bottom: 2rem;
+}
+
+.bottom-spacing {
+	margin-bottom: var(--spacing-five);
 }
