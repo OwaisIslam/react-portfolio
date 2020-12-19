@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { validateEmail } from "../../utils/helpers";
+import { validateEmail, checkBlank } from "../../utils/helpers";
 
 function Contact() {
 	const [formState, setFormState] = useState({
@@ -15,8 +15,6 @@ function Contact() {
 	function handleChange(e) {
 		if (e.target.name === "email") {
 			const isValid = validateEmail(e.target.value);
-			console.log(isValid);
-			// isValid conditional statement
 			if (!isValid) {
 				setErrorMessage("Your email is invalid.");
 			} else {
@@ -33,6 +31,21 @@ function Contact() {
 		}
 	}
 
+	function handleBlank(e) {
+		if (e.target.name === "Name" || e.target.name === "Message") {
+			const isValid = checkBlank(e.target.value);
+			if (!e.target.value.length) {
+				setErrorMessage(`${e.target.name} is required.`);
+			} else {
+				setErrorMessage("");
+			}
+		}
+
+		if (!errorMessage) {
+			setFormState({ ...formState, [e.target.name]: e.target.value });
+		}
+	}
+
 	return (
 		<section>
 			<div className="center">
@@ -41,13 +54,13 @@ function Contact() {
 			<div>
 				<form id="contact-form">
 					<div>
-						<label htmlFor="name">Name:</label>
+						<label htmlFor="Name">Name:</label>
 						<br></br>
 						<input
 							type="text"
 							defaultValue={name}
-							onBlur={handleChange}
-							name="name"
+							onBlur={handleBlank}
+							name="Name"
 						/>
 					</div>
 					<div>
@@ -61,12 +74,12 @@ function Contact() {
 						/>
 					</div>
 					<div>
-						<label htmlFor="message">Message:</label>
+						<label htmlFor="Message">Message:</label>
 						<br></br>
 						<textarea
-							name="message"
+							name="Message"
 							defaultValue={message}
-							onBlur={handleChange}
+							onBlur={handleBlank}
 							rows="5"
 						/>
 					</div>
