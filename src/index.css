@@ -5,12 +5,12 @@ main {
 }
 
 :root {
-	--primary: #32373b;
-	--secondary: #ef626c;
+	--primary: #2E5266;
+	--secondary: #2E282A;
 	--tertiary: #f0f2a6;
 	--quaternary: #39a9db;
 	--quinary: #bfd7ea;
-	--light: #20FC8F;
+	--light: #bfd7ea;
 	--dark: #353831;
 	--darker: #39a9db;
 	--error: rgb(228, 46, 1);
@@ -83,11 +83,10 @@ p {
 }
 
 a {
-	color: var(--secondary);
+	color: red;
 	text-decoration: none;
 	font-weight: bold;
 	border-radius: 5px;
-	/* color: var(--primary); */
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;
@@ -104,7 +103,6 @@ header {
 	justify-content: space-between;
 	padding: 1rem;
 	text-align: center;
-	/* width: 100%; */
 }
 
 header a {
@@ -306,6 +304,17 @@ textarea {
 	max-width: 500px;
 	max-height: 500px;
 	padding: 50px;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+
+.logo:hover {
+	opacity: 0.5;
 }
 
 .center {

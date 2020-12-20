@@ -14,7 +14,7 @@ function Project(props) {
 		let techList = "";
 
 		for (var i = 0; i < techArray.length; i++) {
-			if (i == techArray.length - 1) {
+			if (i === techArray.length - 1) {
 				techList += techArray[i];
 			} else {
 				techList += techArray[i] + ", ";

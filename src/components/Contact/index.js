@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { validateEmail, checkBlank } from "../../utils/helpers";
+import { validateEmail } from "../../utils/helpers";
 
 function Contact() {
 	const [formState, setFormState] = useState({
@@ -33,7 +33,6 @@ function Contact() {
 
 	function handleBlank(e) {
 		if (e.target.name === "Name" || e.target.name === "Message") {
-			const isValid = checkBlank(e.target.value);
 			if (!e.target.value.length) {
 				setErrorMessage(`${e.target.name} is required.`);
 			} else {
