@@ -9,7 +9,7 @@ function Header(props) {
 			<div>
 				<h2>Owais' React Portfolio</h2>
 			</div>
-			<div className="tabs">
+			<div>
 				<Navigation
 					currentTab={currentTab}
 					setCurrentTab={setCurrentTab}

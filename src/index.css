@@ -112,8 +112,10 @@ a:hover {
 header {
 	background: var(--secondary);
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	padding: 1rem;
+	text-align: center;
+	/* width: 100%; */
 }
 
 header a {
@@ -201,7 +203,7 @@ textarea {
 
 .flex-row {
 	display: flex;
-	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .space-between {
@@ -258,11 +260,6 @@ textarea {
 	padding-bottom: var(--spacing-two);
 }
 
-.card {
-	width: 25%;
-	text-align: center;
-}
-
 .img-thumbnail {
 	width: auto;
 	height: 300px;
@@ -306,12 +303,6 @@ textarea {
 	justify-content: space-evenly;
 }
 
-.tabs {
-	display: flex;
-	justify-content: flex-end;
-	padding-left: 2em;
-}
-
 .photo {
 	width: auto;
 	height: auto;
@@ -344,4 +335,28 @@ textarea {
 
 .bottom-spacing {
 	margin-bottom: var(--spacing-five);
+}
+
+.card {
+	width: 25%;
+	text-align: center;
+	/* padding: 3rem; */
+}
+
+.card-title {
+	font-size: 1.5rem;
+}
+
+.card-text {
+	font-size: 0.75rem;
+	height: 10rem;
+}
+
+.card-image {
+	max-width: 300px;
+	max-height: 150px;
+}
+
+.padding {
+	padding: 50px;
 }

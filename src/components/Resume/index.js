@@ -22,6 +22,7 @@ function Resume() {
 					<li>React</li>
 					<li>responsive design</li>
 				</ol>
+				<br></br>
 				<h5>Back-End Proficiencies</h5>
 				<ol>
 					<li>APIs</li>
