@@ -7,4 +7,4 @@ This is my portfolio created with React.js. It contains an About page, Portfolio
 ![webpage screenshot](./src/assets/images/webpage-screenshot.png)
 
 ## Application Link
-https://note-taker-owais.herokuapp.com/
+https://owaisislam.github.io/react-portfolio/
