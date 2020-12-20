@@ -4,23 +4,12 @@ main {
 	padding: 50px 30px;
 }
 
-/* :root {
-	--primary: #8c54ff;
-	--secondary: #F3A847;
-	--tertiary: #B12704;
-	--light: #fafafa;
-	--dark: #000000;
-	--darker: #111111;
-	--error: rgb(228, 46, 1);
-	--spacing-one: calc(1rem * 0.5);
-	--spacing-two: calc(1rem);
-	--spacing-five: calc(2.5rem);
-} */
-
 :root {
 	--primary: #32373b;
 	--secondary: #ef626c;
 	--tertiary: #f0f2a6;
+	--quaternary: #39a9db;
+	--quinary: #bfd7ea;
 	--light: #20FC8F;
 	--dark: #353831;
 	--darker: #39a9db;
@@ -340,21 +329,38 @@ textarea {
 .card {
 	width: 25%;
 	text-align: center;
-	/* padding: 3rem; */
 }
 
 .card-title {
 	font-size: 1.5rem;
+	color: var(--quaternary);
+}
+
+.card-subtitle {
+	font-size: 1rem;
+	color: var(--tertiary);
 }
 
 .card-text {
 	font-size: 0.75rem;
-	height: 10rem;
+	height: 8rem;
+	color: var(--quinary);
+}
+
+.card-techs {
+	font-size: 0.75rem;
+	height: 4rem;
+	color: var(--quinary);
 }
 
 .card-image {
 	max-width: 300px;
 	max-height: 150px;
+}
+
+.card-link {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 0.70rem;
 }
 
 .padding {
