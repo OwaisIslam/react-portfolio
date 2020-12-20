@@ -28,9 +28,15 @@ function App() {
 
 	return (
 		<div>
-			<Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
-			<main>{renderTab()}</main>
-			<Footer></Footer>
+			<div className="mobile-header">
+				<Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
+			</div>
+			<div>
+				<main>{renderTab()}</main>
+			</div>
+			<div>
+				<Footer></Footer>
+			</div>
 		</div>
 	);
 }

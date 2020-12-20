@@ -16,7 +16,7 @@ function Portfolio() {
 				"Express & Sequelize",
 				"Heroku & AWS S3",
 			],
-			github: "https://github.com/CamWills89/auto-tracker",
+			github: "https://github.com/p2T3/auto-tracker",
 			deployed: "https://team-3-auto-tracker.herokuapp.com/",
 		},
 		{
@@ -40,8 +40,8 @@ function Portfolio() {
 				"Node.js",
 				"Express",
 			],
-			github: "https://github.com/CamWills89/budget-tracker",
-			deployed: "https://camerons-budget-tracker.herokuapp.com/",
+			github: "https://github.com/OwaisIslam/budget-tracker",
+			deployed: "https://budget-tracker-owais.herokuapp.com/",
 		},
 		{
 			name: "Weather Dashboard",
@@ -66,7 +66,7 @@ function Portfolio() {
 			description:
 				"This application allows the user to enter notes and as they save, they appear in the sidebar on the left. Notes can be deleted by clicking the trash can next to the corresponding note.",
 			image: "note-taker-image.png",
-			technologies: ["HTML/CSS", "JavaScript"],
+			technologies: ["HTML/CSS", "JavaScript", "Express.js"],
 			github: "https://github.com/OwaisIslam/note-taker",
 			deployed: "https://note-taker-owais.herokuapp.com/",
 		},
@@ -78,7 +78,7 @@ function Portfolio() {
 				<h1 className="page-header">My Portfolio</h1>
 			</div>
 			<div>
-				<ul className="flex-row">
+				<ul className="flex-row mobile-row">
 					<li className="padding">
 						<Project projects={projects[0]}></Project>
 					</li>
@@ -86,7 +86,7 @@ function Portfolio() {
 						<Project projects={projects[1]}></Project>
 					</li>
 				</ul>
-				<ul className="flex-row">
+				<ul className="flex-row mobile-row">
 					<li className="padding">
 						<Project projects={projects[2]}></Project>
 					</li>
@@ -94,7 +94,7 @@ function Portfolio() {
 						<Project projects={projects[3]}></Project>
 					</li>
 				</ul>
-				<ul className="flex-row">
+				<ul className="flex-row mobile-row">
 					<li className="padding">
 						<Project projects={projects[4]}></Project>
 					</li>
