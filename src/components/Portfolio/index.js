@@ -6,7 +6,7 @@ function Portfolio() {
 		{
 			name: 'Living Real',
 			description:
-				'This is a property management system that is used by landlords viewing and managing their properties and for tennants to allow for maintenance requests and pay rent..',
+				'This is a property management system that is used by landlords viewing and managing their properties and for tenants to allow for maintenance requests and pay rent.',
 			image: 'living-real-image.png',
 			technologies: [
 				'HTML/CSS',
