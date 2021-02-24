@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4269458e72efc27a36079e03ba4aa758",
+    "revision": "f3d764820a94e9860d467dd42e9d6308",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "77f1918b6665128a5423",
+    "revision": "6da95dfb517bf3bdc3ae",
     "url": "/react-portfolio/static/css/main.f1cd1086.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/js/3.1d36f085.chunk.js"
   },
   {
-    "revision": "77f1918b6665128a5423",
-    "url": "/react-portfolio/static/js/main.be0ab0db.chunk.js"
+    "revision": "6da95dfb517bf3bdc3ae",
+    "url": "/react-portfolio/static/js/main.815015b5.chunk.js"
   },
   {
     "revision": "6ca195195d31efa5d92b",
@@ -64,7 +64,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/weather-dashboard-image.5db07b5c.png"
   },
   {
-    "revision": "0d20b9eb766c0d0e2b565e2a3ef764d2",
-    "url": "/react-portfolio/static/media/webpage-screenshot.0d20b9eb.png"
+    "revision": "2524a8b5b4006da1d062430b9f8b0c05",
+    "url": "/react-portfolio/static/media/webpage-screenshot.2524a8b5.png"
   }
 ]);
