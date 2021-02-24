@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function About() {
 	return (
@@ -8,30 +8,34 @@ function About() {
 			</div>
 			<div className="center">
 				<img
-					src={require("../../assets/images/recent-photo.jpg")}
+					src={require('../../assets/images/recent-photo.jpg')}
 					alt="flash-beats"
 					className="photo"
 				/>
 			</div>
 			<div>
 				<p>
-					Hi there! My name is Owais Islam and I hope you've come to this page
-					to see some of my work and learn some more about me. I was born in
-					Houston, TX and currently reside in Austin with my wife and our cat
-					Shuri. During the day, I work for a popular e-commerce platform
-					company. In my spare time, I love to play video games and watch comedy
-					shows. Currently we are watching <em>Star Trek: Discovery</em> and{" "}
-					<em>The Mandalorian</em>. I'm a huge Trekkie and I have seen all the
-					episodes of every single show (yes, even the animated cartoon!).
+					I am a full stack web developer looking to build a more
+					intuitive user experience on the web. I recently earned
+					a certificate in full stack development from the
+					University of Texas bootcamp, with newly developed
+					skills in JavaScript, CSS, React.js, and responsive web
+					design. I am known as an innovative problem solver
+					passionate about developing apps, with a focus on
+					mobile-first design and development. With each project,
+					my aim is to best engage my audience for an impactful
+					user experience.
 				</p>
 				<p>
-					I recently picked up a copy of <em>Ghost of Tsushima</em> for the PS4
-					and it is one of the best games I have ever played.
-				</p>
-				<p>
-					I love coding and programming and it's one of the reasons I took this
-					class. I am looking forward to expanding my knowledge and being able
-					to create great web pages.
+					I applied aspects of UX and agile development in a
+					recent project. I worked on a team of five to
+					<a href="https://github.com/P3T2-Realty-Rogues/living-real" target="_blank"> develop</a>
+					a <a href="https://living-real.herokuapp.com/" target="_blank"> single-page MERN app </a>
+					that helps property owners advertise their properties,
+					manage their tenants and manage their real estate all
+					in one place. I’m excited to leverage my skills as part
+					of a fast-paced, quality-driven team to build better
+					experiences on the web.
 				</p>
 			</div>
 		</section>
