@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9325848d03873f7489df021e8aa746e",
+    "revision": "4269458e72efc27a36079e03ba4aa758",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "de73261f8adf16162549",
+    "revision": "77f1918b6665128a5423",
     "url": "/react-portfolio/static/css/main.f1cd1086.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/js/3.1d36f085.chunk.js"
   },
   {
-    "revision": "de73261f8adf16162549",
-    "url": "/react-portfolio/static/js/main.3c09a819.chunk.js"
+    "revision": "77f1918b6665128a5423",
+    "url": "/react-portfolio/static/js/main.be0ab0db.chunk.js"
   },
   {
     "revision": "6ca195195d31efa5d92b",
     "url": "/react-portfolio/static/js/runtime-main.008e99ca.js"
   },
   {
-    "revision": "e2056c49f51055d86ca48d1271560267",
-    "url": "/react-portfolio/static/media/Owais' Resume.e2056c49.pdf"
+    "revision": "e4a20cf406ff0a31378d7ab33ba8c1ba",
+    "url": "/react-portfolio/static/media/Owais' Resume.e4a20cf4.pdf"
   },
   {
     "revision": "5035699ad38fd5313bc95c4891f53581",
