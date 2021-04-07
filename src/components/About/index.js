@@ -9,7 +9,7 @@ function About() {
 			<div className="center">
 				<img
 					src={require('../../assets/images/recent-photo.jpg')}
-					alt="flash-beats"
+					alt="about-me"
 					className="photo"
 				/>
 			</div>
