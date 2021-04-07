@@ -293,9 +293,10 @@ textarea {
 .photo {
 	width: auto;
 	height: auto;
-	max-width: 640px;
-	max-height: 480px;
-	padding: 50px;
+	max-width: 480px;
+	max-height: 640px;
+	/* padding: 50px; */
+	margin-bottom: 50px;
 }
 
 .image {
