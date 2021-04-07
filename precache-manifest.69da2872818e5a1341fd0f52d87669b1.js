@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f3d764820a94e9860d467dd42e9d6308",
+    "revision": "310b8f83fa7a668d171cd14648a82f0a",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "6da95dfb517bf3bdc3ae",
-    "url": "/react-portfolio/static/css/main.f1cd1086.chunk.css"
+    "revision": "59589848124444d611fe",
+    "url": "/react-portfolio/static/css/main.ad94a53e.chunk.css"
   },
   {
     "revision": "75267617a7cd558b0c24",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/js/3.1d36f085.chunk.js"
   },
   {
-    "revision": "6da95dfb517bf3bdc3ae",
-    "url": "/react-portfolio/static/js/main.815015b5.chunk.js"
+    "revision": "59589848124444d611fe",
+    "url": "/react-portfolio/static/js/main.73f6b560.chunk.js"
   },
   {
     "revision": "6ca195195d31efa5d92b",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/password-generator-image.0e54790e.png"
   },
   {
-    "revision": "111399441487363458d0a45afd105942",
-    "url": "/react-portfolio/static/media/recent-photo.11139944.jpg"
+    "revision": "e232e25f978fc2e6a3f3960c7dbcb124",
+    "url": "/react-portfolio/static/media/recent-photo.e232e25f.jpg"
   },
   {
     "revision": "5db07b5ca4b360c2f9058145e3070ff4",
